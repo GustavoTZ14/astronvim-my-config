@@ -19,9 +19,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
-  --colorscheme = "gruvbox",
-  --colorscheme = 'iceberg',
+  --colorscheme = "astrodark",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -88,7 +87,7 @@ return {
     require('lualine').setup {
       options = {
         icons_enabled = true,
-        theme = 'ayu_dark',
+        theme = 'auto',
         --theme = 'gruvbox_dark',
         --theme = 'material',
         component_separators = { left = '', right = '' },

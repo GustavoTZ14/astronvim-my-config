@@ -13,7 +13,4 @@ return {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   },
-  { "ellisonleao/gruvbox.nvim", priority = 1000 },
-  "https://codeberg.org/oahlen/iceberg.nvim",
-  'marko-cerovac/material.nvim'
 }
