@@ -22,8 +22,9 @@ return {
   --colorscheme = "catppuccin",
   --colorscheme = "onedark",
   --colorscheme = "nightfox",
-  colorscheme = "dracula",
-  --colorscheme = "poimandres",
+  --colorscheme = "dracula",
+  --colorscheme = "github_dark_colorblind",
+  colorscheme = "github_dark_tritanopia",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

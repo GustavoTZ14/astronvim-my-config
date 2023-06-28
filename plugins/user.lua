@@ -12,4 +12,5 @@ return {
   "navarasu/onedark.nvim",
   "Mofiqul/dracula.nvim",
   "olivercederborg/poimandres.nvim",
+  "projekt0n/github-nvim-theme",
 }
