@@ -11,4 +11,5 @@ return {
   },
   "navarasu/onedark.nvim",
   "Mofiqul/dracula.nvim",
+  "olivercederborg/poimandres.nvim",
 }
