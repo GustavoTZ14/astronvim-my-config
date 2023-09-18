@@ -20,11 +20,11 @@ return {
   -- Set colorscheme to use
   --colorscheme = "astrodark",
   --colorscheme = "catppuccin",
-  --colorscheme = "onedark",
+  colorscheme = "onedark",
   --colorscheme = "nightfox",
   --colorscheme = "dracula",
   --colorscheme = "github_dark_colorblind",
-  colorscheme = "github_dark_tritanopia",
+  --colorscheme = "github_dark_high_contrast",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -86,5 +86,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    require('onedark').setup {
+    style = 'darker'
+}
+require('onedark').load()
   end,
 }
