@@ -18,10 +18,11 @@ return {
   },
 
   -- Set colorscheme to use
-  --colorscheme = "astrodark",
-  colorscheme = "onedark",
+  colorscheme = "astrodark",
+  --colorscheme = "onedark",
   --colorscheme = "monokai-pro",
   --colorscheme = "catppuccin-mocha",
+  --colorscheme = "kanagawa",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -83,9 +84,9 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
-    require('onedark').setup {
-      style = 'darker'
-    }
-    require('onedark').load()
+    -- require('onedark').setup {
+    --   style = 'darker'
+    -- }
+    -- require('onedark').load()
   end,
 }

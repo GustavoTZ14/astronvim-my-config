@@ -9,7 +9,4 @@ return {
       require("lsp_signature").setup()
     end,
   },
-  "navarasu/onedark.nvim",
-  "loctvl842/monokai-pro.nvim",
-  "nvim-tree/nvim-web-devicons",
  }
